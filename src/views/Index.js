@@ -15,7 +15,7 @@ import {
   Col,
 } from "reactstrap";
 
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
+import MainNavbar from "components/Navbars/MainNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
@@ -52,7 +52,7 @@ export class Index extends React.Component {
     const { list, allValues } = this.state;
     return (
       <>
-        <ExamplesNavbar />
+        <MainNavbar />
         <LandingPageHeader value={allValues} />
         <div className="main">
           <div className="section section-dark text-center">
